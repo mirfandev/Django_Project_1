@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Utils</title>
+  </head>
+  <body>
+    <h1>Welcome to the text analyzer. Enter your text below</h1>
+    <!-- {{ name }} have a degree {{ degree }} -->
+
+    <form action="/analyze" , method="get">
+      <textarea
+        name="text"
+        id=""
+        cols="30"
+        rows="10"
+        data-gramm="false"
+        wt-ignore-input="true"
+        data-quillbot-element="hcWkFbEkUwIx6uMc2M2Lu"
+        style="width: 1489px; height: 300px"
+      ></textarea>
+      <br />
+      <input type="checkbox" , name="removepunc" />Remove Punctuation <br />
+      <button type="submit">Analyze Text</button>
+    </form>
+  </body>
+</html>
